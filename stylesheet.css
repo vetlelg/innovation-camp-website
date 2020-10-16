@@ -5,3 +5,11 @@ body {
   color: white;
   text-align: center;
 }
+
+a {
+  color: white;
+}
+
+table {
+  margin: auto;
+}
