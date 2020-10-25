@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/stylesheet.css">
-    <title>Select class</title>
+  <meta charset="UTF-8">
+  <title>Select school</title>
+  <link rel="stylesheet" href="styles/stylesheet.css">
 </head>
   <body>
 
@@ -17,9 +17,15 @@
       </div>
     </nav>
 
-    <h2>Select your class</h2>
-    <form action="attendance.html">
-      <label for="Class">Choose a class:</label>
+    <main class="select">
+      <form action="attendance.html">
+        <label for="Schools">Select school: </label>
+        <select id="Schools" name="Schools">
+          <option value="1">Addis Abaga</option>
+          <option value="2">Bahir Dar</option>
+        </select>
+        <br>
+        <label for="Class">Select class: </label>
         <select id="Class" name="Class">
             <option value="1">1st Grade</option>
             <option value="2">2nd Grade</option>
@@ -28,9 +34,12 @@
             <option value="5">5th Grade</option>
             <option value="6">6th Grade</option>
             <option value="7">7th Grade</option>
+            <option value="8">8th Grade</option>
         </select>
-        <button type ="submit">Next</button>
-    </form>
+        <br>
+        <button type="submit">Next</button>
+      </form>
+    </main>
 
     <footer>
       <a href="sources.html">Sources</a>
